@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.summary       = %q{Define enums (Rails 4.1-style) but without value? and value! methods}
   s.licenses      = ['MIT']
 
-  s.add_runtime_dependency 'activerecord', '>= 4.1.0'
+  s.add_runtime_dependency 'activerecord', '~> 4.1'
 end

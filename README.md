@@ -11,8 +11,8 @@ It's a solution if you get the following error:
 # Usage #
 
     class MyModel < ActiveRecord::Base
-      enum_without_methods :enum1, [ :a, :b ]
-      enum_without_methods :enum2, [ :a, :b ]
+      enum_without_methods enum1: [ :a, :b ]
+      enum_without_methods enum2: [ :a, :b ]
     end
 
 # License #
